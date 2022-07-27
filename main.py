@@ -84,38 +84,38 @@ with mp_holistic.Holistic(
                 if xc == 1:
                     if angle < 165:
                         arduino.write(b'0')
-                        print("прошло1")
+                        
                     if angle > 160:
-                        print("Прошло2")
+                        
                         arduino.write(b'1')
                         #presskeyforgame.hold(17, 1)  # ГАЗ "W"
                 if xc == 2:
                     if angle < 120:
                         arduino.write(b'2')
-                        print("прошло1")
+                        
                     if angle > 120:
-                        print("Прошло2")
+                        
                         arduino.write(b'3')
                 if xc == 3:
                     if angle < 120:
                         arduino.write(b'4')
-                        print("прошло1")
+                        
                     if angle > 120:
-                        print("Прошло2")
+                        
                         arduino.write(b'5')
                 if xc == 4:
                     if angle < 120:
                         arduino.write(b'6')
-                        print("прошло1")
+                        
                     if angle > 120:
-                        print("Прошло2")
+                        
                         arduino.write(b'7')
                 if xc == 5:
                     if angle < 120:
                         arduino.write(b'8')
-                        print("прошло1")
+                        
                     if angle > 120:
-                        print("Прошло2")
+                        
                         arduino.write(b'9')
 
 
